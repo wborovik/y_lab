@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0c4bef8-c141-47cc-9891-95c1d2593fca" name="Changes" comment="vol-2.1">
-      <change afterPath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumberTest.java" afterDir="false" />
+    <list default="true" id="c0c4bef8-c141-47cc-9891-95c1d2593fca" name="Changes" comment="vol-2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumberImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumberImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1678468643483" duration="1498000" />
       <workItem from="1678518308259" duration="529000" />
       <workItem from="1678518844798" duration="18263000" />
-      <workItem from="1678537694548" duration="3909000" />
+      <workItem from="1678537694548" duration="4893000" />
     </task>
     <task id="LOCAL-00001" summary="vol-1.0">
       <created>1677877405972</created>
@@ -186,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678531526259</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="vol-2.2">
+      <created>1678541613846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678541613846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="vol-2.2">
+      <created>1678542029202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542029202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +248,7 @@
     <MESSAGE value="vol-1.0" />
     <MESSAGE value="vol-2.0" />
     <MESSAGE value="vol-2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="vol-2.1" />
+    <MESSAGE value="vol-2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="vol-2.2" />
   </component>
 </project>
