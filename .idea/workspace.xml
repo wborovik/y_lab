@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0c4bef8-c141-47cc-9891-95c1d2593fca" name="Changes" comment="vol-2.3">
-      <change afterPath="$PROJECT_DIR$/src/homework_2/snils_validator/SnilsValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_2/snils_validator/SnilsValidatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_2/snils_validator/SnilsValidatorTest.java" afterDir="false" />
+    <list default="true" id="c0c4bef8-c141-47cc-9891-95c1d2593fca" name="Changes" comment="vol-2.4">
+      <change afterPath="$PROJECT_DIR$/src/homework_2/stats_accumulator/StatsAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_2/stats_accumulator/StatsAccumulatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_2/stats_accumulator/StatsAccumulatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,26 +58,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SnilsValidatorTest">
+  <component name="RunManager" selected="Application.StatsAccumulatorTest">
     <configuration name="ComplexNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_2.complex_numbers.ComplexNumberTest" />
       <module name="y_lab" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework_2.complex_numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Guess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_1.Guess" />
-      <module name="y_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatsAccumulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_2.stats_accumulator.StatsAccumulatorTest" />
+      <module name="y_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_2.stats_accumulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatsAccumulatorTest" />
         <item itemvalue="Application.SnilsValidatorTest" />
         <item itemvalue="Application.RateLimitedPrinterTest" />
         <item itemvalue="Application.ComplexNumberTest" />
         <item itemvalue="Application.SequencesTest" />
-        <item itemvalue="Application.Guess" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,7 @@
       <workItem from="1678518308259" duration="529000" />
       <workItem from="1678518844798" duration="18263000" />
       <workItem from="1678537694548" duration="17348000" />
-      <workItem from="1678622878491" duration="1633000" />
+      <workItem from="1678622878491" duration="3929000" />
     </task>
     <task id="LOCAL-00001" summary="vol-1.0">
       <created>1677877405972</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678549768335</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="vol-2.4">
+      <created>1678624649458</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678624649458</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +273,7 @@
     <MESSAGE value="vol-2.1" />
     <MESSAGE value="vol-2.2" />
     <MESSAGE value="vol-2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="vol-2.3" />
+    <MESSAGE value="vol-2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="vol-2.4" />
   </component>
 </project>
