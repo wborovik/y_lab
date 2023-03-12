@@ -13,5 +13,11 @@ public class StatsAccumulatorTest {
         s.add(8);
         System.out.println(s.getMax()); // 8 - максимальный из переданных
         System.out.println(s.getCount()); // 5 - количество переданных элементов
+        s.add(-7);
+        s.add(21);
+        System.out.println(s.getMin()); // -7 - минимальное значение изменилось
+        System.out.println(s.getMax()); // 21 - максимальное значение изменилось
+        System.out.println(s.getCount()); // 7 - количество переданных изменилось
+        System.out.println(s.getAvg()); // 4.0 - среднее арифметическое изменилось
     }
 }

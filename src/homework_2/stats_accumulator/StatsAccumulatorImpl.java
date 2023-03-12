@@ -4,7 +4,6 @@ public class StatsAccumulatorImpl implements StatsAccumulator {
     private int min;
     private int max;
     private int count;
-    private Double avg;
     private double sum;
 
     @Override
@@ -15,7 +14,6 @@ public class StatsAccumulatorImpl implements StatsAccumulator {
         }
         count++;
         sum += value;
-        avg = sum / count;
 
         if (value > max) {
             max = value;
@@ -43,6 +41,6 @@ public class StatsAccumulatorImpl implements StatsAccumulator {
 
     @Override
     public Double getAvg() {
-        return avg;
+        return sum / count;
     }
 }
