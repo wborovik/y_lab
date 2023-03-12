@@ -56,9 +56,7 @@ public class ComplexNumber {
     public String toString() {
         String result;
 
-        if (imaginary == 0) {
-            result = real + "";
-        } else if (real == 0) {
+        if (real == 0) {
             result = imaginary + "i";
         } else if (imaginary < 0) {
             result = real + " - " + (-imaginary) + "i";

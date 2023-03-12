@@ -8,10 +8,14 @@ public class ComplexNumberTest {
 
         ComplexNumber complex1 = new ComplexNumber(21.5, 3.5);
         ComplexNumber complex2 = new ComplexNumber(5.2, 15.2);
+        ComplexNumber complex3 = new ComplexNumber(0, 2.7);
+        ComplexNumber complex4 = new ComplexNumber(14.2, -8.4);
 
         System.out.println(complex);
         System.out.println(complex1);
         System.out.println(complex2);
+        System.out.println(complex3);
+        System.out.println(complex4);
 
         System.out.println("-------------------------");
         System.out.println("Операции над комплексными числами:");
