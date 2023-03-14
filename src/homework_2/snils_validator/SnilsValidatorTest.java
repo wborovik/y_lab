@@ -7,5 +7,6 @@ public class SnilsValidatorTest {
 
         System.out.println(new SnilsValidatorImpl().validate("005 360 004 87"));
         System.out.println(new SnilsValidatorImpl().validate(" 738 015 031 78"));
+        System.out.println(new SnilsValidatorImpl().validate(" 699 9385g9 25 "));
     }
 }

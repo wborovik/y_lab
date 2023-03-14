@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c4bef8-c141-47cc-9891-95c1d2593fca" name="Changes" comment="vol-2.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_2/complex_numbers/ComplexNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComplexNumberTest">
+  <component name="RunManager" selected="Application.SnilsValidatorTest">
     <configuration name="ComplexNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_2.complex_numbers.ComplexNumberTest" />
       <module name="y_lab" />
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComplexNumberTest" />
-        <item itemvalue="Application.StatsAccumulatorTest" />
         <item itemvalue="Application.SnilsValidatorTest" />
-        <item itemvalue="Application.RateLimitedPrinterTest" />
+        <item itemvalue="Application.StatsAccumulatorTest" />
         <item itemvalue="Application.SequencesTest" />
+        <item itemvalue="Application.RateLimitedPrinterTest" />
+        <item itemvalue="Application.ComplexNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +148,8 @@
       <workItem from="1678518308259" duration="529000" />
       <workItem from="1678518844798" duration="18263000" />
       <workItem from="1678537694548" duration="17348000" />
-      <workItem from="1678622878491" duration="6623000" />
+      <workItem from="1678622878491" duration="8019000" />
+      <workItem from="1678641768543" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="vol-1.0">
       <created>1677877405972</created>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678629117310</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="vol-2.5">
+      <created>1678629638497</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678629638497</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +259,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="student" />
                       </list>
                     </value>
                   </entry>
